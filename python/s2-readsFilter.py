@@ -110,7 +110,7 @@ sample_name R1-name R2-name unpaired-name
 
 identity_cutoff = 90    #cutoff de identidad para blast
 overlap_cutoff = 0.98   #cutoff de overlap para blast 
-blastThreads = "4"        # numero de nucleos a usar en blast
+blastThreads = "12"        # numero de nucleos a usar en blast
 mainDir = os.getcwd()   # grabar directorio donde fue llamado el script
 os.chdir( sampleDir )
 

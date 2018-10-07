@@ -14,7 +14,7 @@ originalDir=$PWD
 
 LISTA=$(readlink -f $1) # lista de nombres de muestras
 SAMPLEDIR=$2
-nTHREADS=4
+nTHREADS=10
 ## 1 ## CORRO FASTQC EN RAW FASTQs
 
 
